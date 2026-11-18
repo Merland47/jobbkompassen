@@ -2,7 +2,21 @@
 
 Jobbkompassen är en portfolio-prototyp som jämför en användarprofil med fiktiva jobbannonser. Projektet utforskar hur en enkel och begriplig matchning kan hjälpa någon att se vilka krav som redan matchar och vad som kan vara nästa steg.
 
-**Status:** körbar prototyp, avsedd att startas lokalt. Det finns ingen publik live-demo ännu.
+**Prova live:** [Öppna Jobbkompassen](https://jobbkompassen.onrender.com/). Den kostnadsfria Render-instansen kan behöva en kort stund för att starta efter inaktivitet.
+
+## Förhandsvisning
+
+### Startsida
+
+![Jobbkompassens startsida med tom profil](docs/screenshots/01-startlage.png)
+
+### Exempelprofil
+
+![Jobbkompassen med en ifylld exempelprofil](docs/screenshots/02-exempelprofil.png)
+
+### Matchningsresultat
+
+![Jobbkompassen med resultat för tre fiktiva jobbannonser](docs/screenshots/03-matchningsresultat.png)
 
 ## Vad appen gör
 
@@ -90,5 +104,3 @@ API:t har två anrop:
 ## Min roll och AI-assistans
 
 Jag tog fram projektidén och har styrt mål, funktioner och prioriteringar. Jag har provat appen och gett återkoppling på hur den ska fungera och presentera resultaten. AI-assistans har använts för att utveckla kod och dokumentation. Jag använder projektet för att lära mig mer om TypeScript, Node.js, webbgränssnitt, API:er och testning.
-
-
