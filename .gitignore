@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+.DS_Store
+Thumbs.db
+
+# Lokala instruktioner och arbetsanteckningar, inte del av portfolio-repot
+AGENTS.md
+CHAT_INSTRUCTIONS.txt
+PROJECT_CONTEXT.md
+IMPROVEMENT_PLAN.md

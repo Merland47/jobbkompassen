@@ -94,4 +94,3 @@ Jag tog fram projektidén och har styrt mål, funktioner och prioriteringar. Jag
 ## Nästa steg
 
 Fortsätta förbättra prototypen och därefter utforska ett separat AI-agentprojekt med Hermes. Hermes är inte integrerat i Jobbkompassen.
-
