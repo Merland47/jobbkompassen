@@ -152,7 +152,8 @@ const invokedPath = process.argv[1] ? pathToFileURL(resolve(process.argv[1])).hr
 if (invokedPath === import.meta.url) {
   const port = Number(process.env.PORT ?? 3000);
   const server = createAppServer();
-  server.listen(port, "127.0.0.1", () => {
+  server.listen(port, "0.0.0.0", () => {
     console.log(`Jobbkompassen körs på http://127.0.0.1:${port}`);
   });
 }
+
