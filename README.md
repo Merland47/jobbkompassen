@@ -89,8 +89,6 @@ API:t har två anrop:
 
 ## Min roll och AI-assistans
 
-Jag tog fram projektidén och har styrt mål, funktioner och prioriteringar. Jag har provat appen och gett återkoppling på hur den ska fungera och presentera resultaten. AI-assistans har använts för att utveckla kod och dokumentation. Jag beskriver den hjälpen öppet och använder projektet för att lära mig mer om TypeScript, Node.js, webbgränssnitt, API:er och testning.
+Jag tog fram projektidén och har styrt mål, funktioner och prioriteringar. Jag har provat appen och gett återkoppling på hur den ska fungera och presentera resultaten. AI-assistans har använts för att utveckla kod och dokumentation. Jag använder projektet för att lära mig mer om TypeScript, Node.js, webbgränssnitt, API:er och testning.
 
-## Nästa steg
 
-Fortsätta förbättra prototypen och därefter utforska ett separat AI-agentprojekt med Hermes. Hermes är inte integrerat i Jobbkompassen.
