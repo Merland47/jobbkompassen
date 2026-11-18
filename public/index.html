@@ -49,46 +49,28 @@
 
           <button class="example-button" id="example-button" type="button">Fyll i en påhittad exempelprofil</button>
           <button class="submit-button" id="submit-button" type="submit">Visa mina jobbförslag <span aria-hidden="true">→</span></button>
-          <button class="clear-button" id="clear-button" type="button">Rensa…1044 tokens truncated…7px 0 11px; padding: 10px; color: var(--green); background: transparent; font-size: .82rem; }
-.example-button:hover { background: var(--pale); }
-.clear-button { margin-top: 9px; padding: 10px; color: var(--muted); background: transparent; font-size: .82rem; }
-.clear-button:hover { color: var(--ink); background: #f1f3ef; }
-.submit-button { display: flex; justify-content: space-between; align-items: center; padding: 15px 17px; color: white; background: var(--green); transition: background .15s, transform .15s; }
-.submit-button:hover { background: var(--green-dark); transform: translateY(-1px); }
-.submit-button span { font-size: 1.2rem; }
-.form-message { min-height: 1em; margin: 10px 0 0; color: #a23b32; font-size: .83rem; }
-.results-section { padding: 25px 0 76px; }
-.results-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; margin-bottom: 22px; }
-.results-heading .eyebrow { margin-bottom: 8px; }
-.results-heading h2 { margin: 0; font-size: clamp(1.7rem, 3vw, 2.25rem); letter-spacing: -.04em; }
-.results-caption { margin: 0 0 3px; color: var(--muted); font-size: .85rem; }
-.results-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 17px; }
-.job-card { padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: white; }
-.job-topline { display: flex; justify-content: space-between; gap: 15px; align-items: flex-start; }
-.job-card h3 { margin: 0 0 5px; font-size: 1.12rem; }
-.job-company, .job-location { margin: 0; color: var(--muted); font-size: .83rem; }
-.job-location { margin-top: 7px; }
-.score { display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 0 0 61px; height: 61px; border-radius: 50%; color: var(--green-dark); background: var(--pale); font-size: 1.15rem; font-weight: 800; }
-.score small { font-size: .57rem; font-weight: 500; }
-.job-summary { margin: 18px 0; color: #536158; font-size: .88rem; line-height: 1.6; }
-.score-breakdown { margin: 18px 0; padding: 14px; border-radius: 10px; background: #f6f8f5; }
-.score-breakdown h4 { margin: 0 0 10px; }
-.score-row { display: flex; justify-content: space-between; gap: 12px; color: #536158; font-size: .78rem; line-height: 1.5; }
-.score-row + .score-row { margin-top: 5px; }
-.score-row span:last-child { text-align: right; white-space: nowrap; }
-.job-card h4 { margin: 17px 0 8px; color: var(--ink); font-size: .79rem; }
-.job-card ul { margin: 0; padding-left: 18px; color: #59675f; font-size: .82rem; line-height: 1.6; }
-.job-card li + li { margin-top: 5px; }
-.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
-.tag { padding: 5px 8px; border-radius: 6px; color: #775d2b; background: #f8f1df; font-size: .72rem; }
-.disclaimer { margin: 18px 0 0; color: var(--muted); font-size: .78rem; }
-footer { border-top: 1px solid rgba(24, 37, 31, .08); font-size: .75rem; }
-@media (max-width: 760px) {
-  .topbar, footer { padding: 17px 6vw; }
-  .top-note { max-width: 160px; text-align: right; line-height: 1.4; }
-  main { width: 88vw; }
-  .hero { grid-template-columns: 1fr; gap: 33px; padding: 52px 0 48px; }
-  h1 { font-size: clamp(2.9rem, 13vw, 4.2rem); }
-  .results-heading { align-items: start; flex-direction: column; }
-  footer { align-items: flex-start; gap: 9px; flex-direction: column; }
-}
+          <button class="clear-button" id="clear-button" type="button">Rensa profil och resultat</button>
+          <p id="form-message" class="form-message" role="status" aria-live="polite" tabindex="-1"></p>
+        </form>
+      </section>
+
+      <section id="results-section" class="results-section" aria-labelledby="results-title" hidden>
+        <div class="results-heading">
+          <div>
+            <p class="eyebrow">02 · DINA RESULTAT</p>
+            <h2 id="results-title">Jobb som kan passa</h2>
+          </div>
+          <p class="results-caption">Sorterade efter matchningspoäng</p>
+        </div>
+        <div id="results" class="results-grid"></div>
+        <p class="disclaimer">Matchningspoängen är en enkel demoheuristik. Den avgör inte vem som bör få ett jobb.</p>
+      </section>
+    </main>
+
+    <footer>
+      <span>Jobbkompassen</span>
+      <span>Fiktiva exempel · Regelbaserad matchning · Ingen betald AI</span>
+    </footer>
+  </body>
+</html>
+
